@@ -1,7 +1,7 @@
 from peewee import *
 
 
-con = SqliteDatabase(r"C:\Users\fasar\peewee_db\users.db")
+con = SqliteDatabase(r"C:\Users\user\PycharmProjects\peewee_db\users.db")
 
 class Person(Model):
     id = PrimaryKeyField(primary_key=True, unique=True)
